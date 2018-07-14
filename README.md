@@ -9,7 +9,7 @@ This library is composed from two files matrix.py and nn.py.
 
 For the first one there is an object called Martix which there is functions of Matrix operations.
 
-The second one is the library for neural network.
+The second one is the library for neural network. Not uploaded yet 
 <!--
 ### Prerequisites
 
