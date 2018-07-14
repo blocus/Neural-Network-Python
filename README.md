@@ -1,6 +1,7 @@
 # Neural-Network-Python
 
-One Paragraph of project description goes here
+This is a library of neural network with several layers for python 2.7 documented from the series of videos made by @shiffman from his youtube channel The Coding Train
+
 
 ## Getting Started
 
@@ -72,9 +73,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ahmed Meftah** - *Initial work* - [PurpleBooth](https://github.com/blocus)
 
 ## License
 
