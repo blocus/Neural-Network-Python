@@ -5,8 +5,12 @@ This is a library of neural network with several layers for python 2.7 documente
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This library is composed from two files matrix.py and nn.py.
 
+For the first one there is an object called Martix which there is functions of Matrix operations.
+
+The second one is the library for neural network.
+<!--
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -83,4 +87,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to anyone whose code was used
 * Inspiration
-* etc
+* etc -->
