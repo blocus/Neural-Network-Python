@@ -83,6 +83,28 @@ class Matrix():
             print "arg should be a number or a Matrix"
             return False
 
+    def subtract(self, B):
+        print isnan(B)
+        if not isnan(B):
+            print "number"
+            for i in range(self.rows):
+                for j in range(self.cols):
+                    self.matrix[i][j] -= B
+            return True
+        elif isinstance(B, Matrix):
+            print "Matrix"
+            if self.cols != B.cols or self.rows != B.rows:
+                print "the two matrix are different size"
+                return False
+            for i in range(self.rows):
+                for j in range(self.cols):
+                    self.matrix[i][j] -= B.matrix[i][j]
+            return True
+        else:
+            print "arg should be a number or a Matrix"
+            return False
+
+
     def setList(self, L):
         tmp = []
         if not isinstance(L, list):
@@ -150,3 +172,22 @@ class Matrix():
         else:
             print "arg should be a number or a Matrix"
             return False
+
+    def toList(self):
+        tmp = []
+        for l in self.matrix:
+            for e in l:
+                tmp.append(e)
+        return tmp
+
+    def transopse(self):
+        tmp = Matrix(self.cols, self.rows)
+        for i in range(self.rows):
+            for j in range(self.cols):
+                tmp.matrix[j][i] = self.matrix[i][j]
+        return tmp
+
+    def map(self, fn):
+        for i in range(self.rows):
+            for j in range(self.cols):
+                self.matrix[i][j] = fn(self.matrix[i][j])
